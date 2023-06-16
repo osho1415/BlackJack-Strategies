@@ -11,12 +11,12 @@ BlackJack is a casino banking game, with the following rules:
   The outcome is determined by comparing the final hand values. The player wins if their hand value is closer to 21 than the dealer's hand value without busting.
 
 This project simulates multiple rounds of BlackJack with one player to compare the various betting strategies. The game itself is played using a intermediate strategy which is influenced by the following guidelines: 
-  Hard Totals (hand without an Ace):
-    If the player's hand value is 8 or less, always hit.
-    If the hand value is 9, double down if the dealer's up-card is between 3 and 6; otherwise, hit.
-    If the hand value is 10 or 11, double down unless the dealer's up-card is an Ace or a 10-value card.
-    If the hand value is 12 to 16, stand if the dealer's up-card is 2 to 6; otherwise, hit.
-    If the hand value is 17 or higher, always stand.
+*Hard Totals (hand without an Ace):
+    *If the player's hand value is 8 or less, always hit.
+    *If the hand value is 9, double down if the dealer's up-card is between 3 and 6; otherwise, hit.
+    *If the hand value is 10 or 11, double down unless the dealer's up-card is an Ace or a 10-value card.
+    *If the hand value is 12 to 16, stand if the dealer's up-card is 2 to 6; otherwise, hit.
+    *If the hand value is 17 or higher, always stand.
   Soft Totals (hand with an Ace):
     If the hand value is 13 to 17, always hit.
     If the hand value is 18, stand if the dealer's up-card is 2 to 8; otherwise, hit.
