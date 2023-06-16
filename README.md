@@ -2,18 +2,14 @@
 Run Monte-Carlo simulations to compare the outcome of various betting strategy in BlackJack
 
 BlackJack is a casino banking game, with the following rules: 
-  Use a standard 52-card deck without jokers.
-  Each round begins with the player and the dealer receiving two cards.
-  The player's cards are dealt face-up, while one of the dealer's cards is dealt face-up, and the other is dealt face-down (hole card).
-  The cards have the following values: number cards (2-10) are worth their face value, face cards (Jack, Queen, King) are worth 10, and the Ace can be worth either 1 or 11, depending on the player's hand.
-  The player has the option to hit (receive an additional card) or stand (keep the current hand) until they decide to stand, reach a hand value of 21 (blackjack), or bust (exceed 21).
-  After the player's turn, the dealer reveals their hole card and follows a fixed set of rules: they must hit until their hand value is at least 17, and then they must stand.
-  The outcome is determined by comparing the final hand values. The player wins if their hand value is closer to 21 than the dealer's hand value without busting.
+  *Use a standard 52-card deck without jokers.
+  *Each round begins with the player and the dealer receiving two cards.
+  *The player's cards are dealt face-up, while one of the dealer's cards is dealt face-up, and the other is dealt face-down (hole card).
+  *The cards have the following values: number cards (2-10) are worth their face value, face cards (Jack, Queen, King) are worth 10, and the Ace can be worth either 1 or 11, depending on the player's hand.
+  *The player has the option to hit (receive an additional card) or stand (keep the current hand) until they decide to stand, reach a hand value of 21 (blackjack), or bust (exceed 21).
+  *After the player's turn, the dealer reveals their hole card and follows a fixed set of rules: they must hit until their hand value is at least 17, and then they must stand.
+  *The outcome is determined by comparing the final hand values. The player wins if their hand value is closer to 21 than the dealer's hand value without busting.
 
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
 This project simulates multiple rounds of BlackJack with one player to compare the various betting strategies. The game itself is played using a intermediate strategy which is influenced by the following guidelines: 
 *Hard Totals (hand without an Ace):
     *If the player's hand value is 8 or less, always hit.
