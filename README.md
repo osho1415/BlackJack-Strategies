@@ -10,6 +10,10 @@ BlackJack is a casino banking game, with the following rules:
   After the player's turn, the dealer reveals their hole card and follows a fixed set of rules: they must hit until their hand value is at least 17, and then they must stand.
   The outcome is determined by comparing the final hand values. The player wins if their hand value is closer to 21 than the dealer's hand value without busting.
 
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
 This project simulates multiple rounds of BlackJack with one player to compare the various betting strategies. The game itself is played using a intermediate strategy which is influenced by the following guidelines: 
 *Hard Totals (hand without an Ace):
     *If the player's hand value is 8 or less, always hit.
