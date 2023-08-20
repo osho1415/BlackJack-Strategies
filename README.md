@@ -24,6 +24,8 @@ This project simulates multiple games of BlackJack, with multiple rounds each ga
   * 9s: Split against dealer's 2-6, 8, and 9, otherwise stand.
   * 10s: Always stand.
 
+
+
 The outcome of the simulation is graphed as a line chart, similar to the example below.
 ![Graph5](https://github.com/osho1415/BlackJack-Strategies/assets/71971917/7858359b-ce86-4511-aefc-707981948109)
 
