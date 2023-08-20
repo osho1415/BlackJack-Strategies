@@ -31,5 +31,5 @@ The following graphs the changes in funds after each round, upon the implementat
 
 
 ##### RESULT 
-After implementation of 50000 games with 1000 rounds each : [Download CSV File](path/to/your/csv/file.csv)
+After implementation of 50000 games with 1000 rounds each : [Download CSV File](1000 result.csv)
 
