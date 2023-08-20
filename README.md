@@ -26,6 +26,6 @@ This project simulates multiple games of BlackJack, with multiple rounds each ga
 
 
 
-The outcome of the simulation is graphed as a line chart, similar to the example below.
+The following graphs the changes in funds after each round, upon the implementation of different betting strategies.
 ![Graph5](https://github.com/osho1415/BlackJack-Strategies/assets/71971917/7858359b-ce86-4511-aefc-707981948109)
 
