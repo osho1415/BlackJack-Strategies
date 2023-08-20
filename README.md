@@ -10,8 +10,19 @@ This project simulates multiple games of BlackJack, with multiple rounds each ga
   * 10 or 11: Double down unless the dealer has an Ace or a 10-value card, then hit.
   * 12-16: Stand against dealer's 2-6, otherwise hit.
   * 17 or higher: Always stand.
-* Iteam 2
-* 
+* Soft Hands (With an Ace):
+  * Ace-2 to Ace-6: Double down if the dealer has 4-6, otherwise hit.
+  * Ace-7: Stand against dealer's 2, 7, or 8, double down against 3-6, hit against 9, 10, or Ace.
+  * Ace-8 or Ace-9: Always stand.
+* Pairs:
+  * Aces and 8s: Always split.
+  * 2s or 3s: Split against dealer's 4-7, otherwise hit.
+  * 4s: Split against dealer's 5-6, otherwise hit.
+  * 5s: Double down against dealer's 2-9, otherwise hit.
+  * 6s: Split against dealer's 2-6, otherwise hit.
+  * 7s: Split against dealer's 2-7, otherwise hit.
+  * 9s: Split against dealer's 2-6, 8, and 9, otherwise stand.
+  * 10s: Always stand.
 
 The outcome of the simulation is graphed as a line chart, similar to the example below.
 ![Graph5](https://github.com/osho1415/BlackJack-Strategies/assets/71971917/7858359b-ce86-4511-aefc-707981948109)
